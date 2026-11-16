@@ -26,17 +26,17 @@ This lab assumes you have:
 ## Task 1: View Existing Workflow
 
 1. Open the navigation menu and click **Definitions**, and then click the **Workflows** tab.
-   The Workflows list page opens. All the workflows that you have defined are displayed in a table.
+    The Workflows list page opens. All the workflows that you have defined are displayed in a table.
 
 2. Identify the workflow that you want to view, such as **"acme\_bank\_loan\_processing\_workflow"**, and then click ![Edit Workflow](images/edit.png) (**Edit Workflow**) under **Actions**.
-   The Workflow Builder visually depicts all the tasks of the workflow in the left pane. Scroll to view all the tasks of the workflow. In the right pane, the **Workflow** tab displays all the details of the workflow.
-  ![View a workflow](images/view-workflow.png)
+    The Workflow Builder visually depicts all the tasks of the workflow in the left pane. Scroll to view all the tasks of the workflow. In the right pane, the **Workflow** tab displays all the details of the workflow.
+    ![View a workflow](images/view-workflow.png)
 
 3. Click the **JSON** tab to view the JSON for the workflow as shown in the following image. Scroll to view the entire JSON.
-   ![View a workflow](images/view-workflow-json.png)
+    ![View a workflow](images/view-workflow-json.png)
 
 4. Click a component to view more details. The following figure shows the details of an Agentic Planner task in the right pane under the **Task** tab.
-   ![View a workflow](images/workflow-builder-view-task.png)
+    ![View a workflow](images/workflow-builder-view-task.png)
 
 5. If you want to proceed by viewing the workflow and not creating a new one, then skip Task 2 and proceed to Task 3.
 
@@ -45,23 +45,23 @@ This lab assumes you have:
 1. Open the navigation menu and click **Definitions**, and then click the **Workflows** tab.
 
 2. Click **New Workflow**. The Workflow Builder is displayed. In the right pane, the **Workflow** tab displays all the details of the workflow. Enter details of the workflow, such as its name and values for the other parameters.
-   ![Workflow Builder Landing Page](images/workflow-builder-landing-page.png)
+    ![Workflow Builder Landing Page](images/workflow-builder-landing-page.png)
 
 3. Place the cursor on the arrow mark. A plus sign appears.
-   ![Workflow Builder Add New Building Block](images/workflow-builder-add-new.png)
+    ![Workflow Builder Add New Building Block](images/workflow-builder-add-new.png)
 
 4. Click the plus icon. Many tasks are displayed.
-   ![Workflow Builder Add New Building Block](images/workflow-builder-add-new-task.png)
+    ![Workflow Builder Add New Building Block](images/workflow-builder-add-new-task.png)
 
 5. Click a task that you want to add to the workflow. The following image shows an agentic task that is added to the workflow.
-   ![Enter task details](images/add-task-workflow-builder.png)
+    ![Enter task details](images/add-task-workflow-builder.png)
 
 6. Click the task to enter details about the task, such as its name and parameters.
-   ![Enter task details](images/add-task-details.png)
+    ![Enter task details](images/add-task-details.png)
 
 7. Click **Save**.
-   MicroTx Workflow displays the changes in JSON code. Review all the changes.
-   ![Enter task details](images/save-workflow-changes.png)
+    MicroTx Workflow displays the changes in JSON code. Review all the changes.
+    ![Enter task details](images/save-workflow-changes.png)
 
 8. Click **Confirm Save** to save the changes.
 
@@ -87,21 +87,21 @@ The workflow accepts user input in natural language. Use a GenAI task type to ex
 
      ![New LLM Definition](images/openai-llm-definition.png)
 
-5.  Click **Submit**.
+5. Click **Submit**.
     Your new definition appears in the list of available LLM definitions.
 
-6.  In the navigation menu, click **Definitions**, and then click the **Workflows** tab.
+6. In the navigation menu, click **Definitions**, and then click the **Workflows** tab.
 
 7. Identify the workflow that you want to view, such as **"acme\_bank\_loan\_processing\_workflow"**, and then click ![Edit Workflow](images/edit.png) (**Edit Workflow**) under **Actions**.
-   The Workflow Builder visually depicts all the tasks of the workflow in the left pane. Scroll up and down to view all the tasks in the workflow. In the right pane, the **Workflow** tab displays all the details of the workflow.
-  ![View a workflow](images/view-workflow.png)
+    The Workflow Builder visually depicts all the tasks of the workflow in the left pane. Scroll up and down to view all the tasks in the workflow. In the right pane, the **Workflow** tab displays all the details of the workflow.
+    ![View a workflow](images/view-workflow.png)
 
 8. Scroll up in the left pane to view the **Extract Loan Application details** task, and then click the task to view the details of the task in the **Task** tab.
-   ![View task details](images/extract-loan-application-details.png)
+    ![View task details](images/extract-loan-application-details.png)
 
 9. Click the **Json** tab to view the JSON code for the **Extract Loan Application details** task or configure the task as shown below if you are creating a new workflow and save your changes.
-   ![View extract details genai task](images/view-genai-task-json.png)
-   ![View task JSON code](images/view-task-json.png)
+    ![View extract details genai task](images/view-genai-task-json.png)
+    ![View task JSON code](images/view-task-json.png)
 
 10. Let's look at the input parameters required by this GenAI task. It requires the LLM profile definition that we created earlier and a prompt template. Next, let's create the prompt template. In the navigation menu, click **Agentic AI**, and then click the **Prompt** tab. The Prompt Definitions list page opens. All the prompts that you have defined are displayed in a table.
 
@@ -109,7 +109,7 @@ The workflow accepts user input in natural language. Use a GenAI task type to ex
 
 12. Click on the edit button to view the prompt definition. Or enter the following information when creating a new definition.
 
-   ![New Prompt Definition](images/new-prompt-template.png)
+    ![New Prompt Definition](images/new-prompt-template.png)
 
     * Name: Enter `loan_application_nl_2_json` as a unique and descriptive name to identify this prompt definition in workflows.
   
@@ -158,10 +158,10 @@ To achieve this, let's add a SWITCH task and define the decision cases. If the c
 1. In the navigation menu, click **Definitions**, and then click the **Workflows** tab.
 
 2. Identify the workflow that you want to view, such as **"acme\_bank\_loan\_processing\_workflow"**, and then click ![Edit Workflow](images/edit.png) (**Edit Workflow**) under **Actions**.
-  ![View a workflow](images/view-workflow.png)
+    ![View a workflow](images/view-workflow.png)
 
 3. Scroll up in the left pane to view the **Check loan application completeness** task, and then click the task to view the details of the task in the **Task** tab.
-   ![View task details](images/check-loan-task-details.png)
+    ![View task details](images/check-loan-task-details.png)
 
 4. Click the **JSON** tab to view the JSON code for the **Check loan application completeness** task or add a new *Switch* task if you are creating a new workflow. Configure the task details as shown below and save your changes.
 ![Add switch1 task](images/add-switch1-task.png)
@@ -179,83 +179,81 @@ The complete JSON representation for the Switch task is given below for referenc
    ```json
     <copy>
     {
-    "name": "Check loan application completeness",
-    "taskReferenceName": "check_loan_application_completeness",
-    "inputParameters": {
+      "name": "Check_loan_application_completeness",
+      "taskReferenceName": "check_loan_application_completeness",
+      "inputParameters": {
         "switchCaseValue": "${extract_loan_details.output.status}"
-    },
-    "type": "SWITCH",
-    "decisionCases": {
+      },
+      "type": "SWITCH",
+      "decisionCases": {
         "FAILED": [
-            {
-                "name": "Notify incomplete loan application",
-                "taskReferenceName": "notify_incomplete_loan_application",
-                "inputParameters": {
-                    "http_request": {
-                        "method": "POST",
-                        "uri": "http://notification-service:8085/email-service/sendMail",
-                        "headers": {
-                            "Content-Type": "application/json"
-                        },
-                        "body": {
-                            "from": "microtx.user@localhost",
-                            "to": "microtx.user@microtx.com",
-                            "cc": "",
-                            "subject": "Loan application rejected!",
-                            "body": "Loan application rejected due to incomplete details. ${workflow.input.loan_application_text}",
-                            "isEmailBodyText": true
-                        }
-                    }
-                },
-                "type": "HTTP",
-                "decisionCases": {},
-                "defaultCase": [],
-                "forkTasks": [],
-                "startDelay": 0,
-                "joinOn": [],
-                "optional": false,
-                "defaultExclusiveJoinTask": [],
-                "asyncComplete": false,
-                "loopOver": [],
-                "onStateChange": {},
-                "permissive": false
+          {
+            "name": "Notify_Incomplete_Loan_Application",
+            "taskReferenceName": "notify_incomplete_loan_application",
+            "inputParameters": {
+              "method": "POST",
+              "uri": "http://notification-service:8085/email-service/sendMail?isMockSendMail=true",
+              "headers": {
+                "Content-Type": "application/json"
+              },
+              "body": {
+                "from": "microtx.user@localhost",
+                "to": "microtx.user@microtx.com",
+                "cc": "",
+                "subject": "Loan application rejected!",
+                "body": "Loan application rejected due to incomplete details. ${workflow.input.loan_application_text}",
+                "isEmailBodyText": true
+              }
             },
-            {
-                "name": "terminate",
-                "taskReferenceName": "terminate_ref",
-                "inputParameters": {
-                    "terminationStatus": "TERMINATED",
-                    "terminationReason": "Incomplete loan application details",
-                    "workflowOutput": "${extract_loan_details.output}"
-                },
-                "type": "TERMINATE",
-                "decisionCases": {},
-                "defaultCase": [],
-                "forkTasks": [],
-                "startDelay": 0,
-                "joinOn": [],
-                "optional": false,
-                "defaultExclusiveJoinTask": [],
-                "asyncComplete": false,
-                "loopOver": [],
-                "onStateChange": {},
-                "permissive": false
-            }
+            "type": "HTTP",
+            "decisionCases": {},
+            "defaultCase": [],
+            "forkTasks": [],
+            "startDelay": 0,
+            "joinOn": [],
+            "optional": false,
+            "defaultExclusiveJoinTask": [],
+            "asyncComplete": false,
+            "loopOver": [],
+            "onStateChange": {},
+            "permissive": false
+          },
+          {
+            "name": "terminate",
+            "taskReferenceName": "terminate_ref",
+            "inputParameters": {
+              "terminationStatus": "TERMINATED",
+              "terminationReason": "Incomplete loan application details",
+              "workflowOutput": "${extract_loan_details.output}"
+            },
+            "type": "TERMINATE",
+            "decisionCases": {},
+            "defaultCase": [],
+            "forkTasks": [],
+            "startDelay": 0,
+            "joinOn": [],
+            "optional": false,
+            "defaultExclusiveJoinTask": [],
+            "asyncComplete": false,
+            "loopOver": [],
+            "onStateChange": {},
+            "permissive": false
+          }
         ]
-    },
-    "defaultCase": [],
-    "forkTasks": [],
-    "startDelay": 0,
-    "joinOn": [],
-    "optional": false,
-    "defaultExclusiveJoinTask": [],
-    "asyncComplete": false,
-    "loopOver": [],
-    "evaluatorType": "value-param",
-    "expression": "switchCaseValue",
-    "onStateChange": {},
-    "permissive": false
-    }
+      },
+      "defaultCase": [],
+      "forkTasks": [],
+      "startDelay": 0,
+      "joinOn": [],
+      "optional": false,
+      "defaultExclusiveJoinTask": [],
+      "asyncComplete": false,
+      "loopOver": [],
+      "evaluatorType": "value-param",
+      "expression": "switchCaseValue",
+      "onStateChange": {},
+      "permissive": false
+    } 
     </copy>
     ```
 
@@ -266,14 +264,14 @@ Once the application is deemed complete, create an application record in the dat
 1. In the navigation menu, click **Definitions**, and then click the **Workflows** tab.
 
 2. Identify the workflow that you want to view, such as **"acme\_bank\_loan\_processing\_workflow"**, and then click ![Edit Workflow](images/edit.png) (**Edit Workflow**) under **Actions**.
-  ![View a workflow](images/view-workflow.png)
+    ![View a workflow](images/view-workflow.png)
 
 3. Scroll up in the left pane to view the **auditLoanOracleSql** task, and then click the task to view the details of the task in the **Task** tab.
-   ![View task details](images/sql-task-view.png)
+    ![View task details](images/sql-task-view.png)
 
 4. Click the **JSON** tab to view the JSON code for the **auditLoanOracleSql** task or add a new *SQL Task* if you are creating a new workflow and save your changes. The complete JSON representation for the SQL task is given below for reference. You can use this to copy text and values to configure the task.
 
-   ```json
+    ```json
     <copy>
     {
     "name": "auditLoanOracleSql",
@@ -347,11 +345,11 @@ Agentic Planner requires LLM access, a prompt, and tools as input parameters. Ne
        ```text
         <copy>
         You are an AI planner for a loan approval workflow. Your goal is to decide the next tool to call based on the results of previous steps. Follow the conditions below exactly.
-        1.  **First step:** Connect to sqlcl 'oracledb_mcp' using connect tool and change status of Loan application with APPLICATION_ID=${workflowId} to UNDER_REVIEW. UPDATE LOAN_APPLICATIONS SET APPLICATION_STATUS = 'UNDER_REVIEW' WHERE APPLICATION_ID = workflowId; then, if no tasks have been run, call the `document_verification_task`.
-        2.  **After document verification:**
+        1. **First step:** Connect to sqlcl 'oracledb_mcp' using connect tool and change status of Loan application with APPLICATION_ID=${workflowId} to UNDER_REVIEW. UPDATE LOAN_APPLICATIONS SET APPLICATION_STATUS = 'UNDER_REVIEW' WHERE APPLICATION_ID = workflowId; then, if no tasks have been run, call the `document_verification_task`.
+        2. **After document verification:**
               * If `document_verification_task` failed, the process stops. Respond with a final status of 'FAILED'.
               * If it succeeded, call the `compliance_agent` and `loan_processing_agent` in parallel.
-        3.  **After compliance and processing:**
+        3. **After compliance and processing:**
               * If `compliance_agent` failed due to an 'AML_CHECK', call `notify_aml_check_failure_to_admin` and `human_aml_verification` in parallel.
               * For any other failure, the process stops. Respond with a final status of 'FAILED'.
               * If all tasks succeed, the process is complete. Respond with a final status of 'SUCCESS'.
@@ -376,28 +374,15 @@ Agentic Planner requires LLM access, a prompt, and tools as input parameters. Ne
     * URL: Enter the URL of the MCP server as `http://doc-process-mcp-server:8000/`.
     * SSE Endpoint: Enter `/mcp` as the full endpoint path for server-sent events (SSE). This is required for communicating with the MCP server.
 
-   ![Create an MCP Server connector for document verification](images/doc-verify-mcp-server-existing.png)
+    ![Create an MCP Server connector for document verification](images/doc-verify-mcp-server-existing.png)
 
 9. Click **Submit**. Your new connector appears in the list of available MCP definitions.
 
-10. View the existing "oracledb\_mcp" MCP definition. To create a new MCP definition, click **New MCP Definition (+)**.
+10. Open the navigation menu and click **Agentic AI**, and then click the **Agent Profile** tab.
 
-11. Click on the edit button to view the oracledb\_mcp definition. Or enter the following information when creating a new MCP server connector for Oracle AI Database.
-    * Name: Enter `oracledb_mcp` as a unique and descriptive name to identify this MCP server definition in workflows.
-    * Description: Enter a description for the tool configuration, such as Oracle AI Database MCP server.
-    * Transport: Select STDIO from the drop-down list to specify the network transport protocol used by the MCP server for communication.
-    * Command: Enter '/app/sqlcl/bin/sql'.
-    * Args: Enter `-mcp` as the command argument.
+11. View the existing "loan\_document\_verification\_agent" Agent Profile definition. To create a new Agent Profile definition, click **New Agent Profile Definition (+)**.
 
-     ![Create an MCP server connector for Oracle AI Database.](images/oracle-mcp2.png)
-
-12. Click **Submit**. Your new connector appears in the list of available MCP definitions.
-
-13. Open the navigation menu and click **Agentic AI**, and then click the **Agent Profile** tab.
-
-14. View the existing "loan\_document\_verification\_agent" Agent Profile definition. To create a new Agent Profile definition, click **New Agent Profile Definition (+)**.
-
-15. Click on the edit button to view the loan\_document\_verification\_agent definition. Or enter the following information when creating a new Agent Profile definition.
+12. Click on the edit button to view the loan\_document\_verification\_agent definition. Or enter the following information when creating a new Agent Profile definition.
     * Name: Enter `loan_document_verification_agent` as a unique and descriptive name to identify this agent profile definition in workflows.
     * Description: Enter a description for the tool configuration, such as Loan Documents Verification Agent.
     * Role: Enter `Loan application documents verification agent` as the intended role or function of the agent.
@@ -421,33 +406,33 @@ Agentic Planner requires LLM access, a prompt, and tools as input parameters. Ne
 
     ![Create an Agent profile for loan doc verification.](images/doc-verify-agent-profile.png)
 
-16. Click **Submit**. Your new agent profile appears in the list of available agent profile definitions.
+13. Click **Submit**. Your new agent profile appears in the list of available agent profile definitions.
 
-17. In the navigation menu, click **Definitions**, and then click the **Workflows** tab.
+14. In the navigation menu, click **Definitions**, and then click the **Workflows** tab.
 
-18. Identify the workflow that you want to view, such as **"acme\_bank\_loan\_processing\_workflow"**, and then click ![Edit Workflow](images/edit.png) (**Edit Workflow**) under **Actions**.
+15. Identify the workflow that you want to view, such as **"acme\_bank\_loan\_processing\_workflow"**, and then click ![Edit Workflow](images/edit.png) (**Edit Workflow**) under **Actions**.
 
-19. In the left pane, click **Agentic Planner** task to view the details of the task in the **Task** tab.
-   ![View task details](images/view-agentic-task-wb.png)
+16. In the left pane, click **Agentic Planner** task to view the details of the task in the **Task** tab.
+    ![View task details](images/view-agentic-task-wb.png)
 
-20. Click the **JSON** tab to view the JSON code for the **Agentic Planner** task or add a new *Planner Task* if you are creating a new workflow, configure the planner task as shown in the above image and save your changes. 
+17. Click the **JSON** tab to view the JSON code for the **Agentic Planner** task or add a new *Planner Task* if you are creating a new workflow, configure the planner task as shown in the above image and save your changes. 
 Within the planner add more tasks by clicking on the + icon in the planner.
- ![Add tasks within planner](images/add-tasks-in-planner.png)
+   ![Add tasks within planner](images/add-tasks-in-planner.png)
 
-  20.1 Add *Agentic Task* for loan document verification. Select the agent profile created in the previous step and configure the Agentic Task as shown.
-  ![Add agentic task](images/add-agentic-task.png)
+   17.1 Add *Agentic Task* for loan document verification. Select the agent profile created in the previous step and configure the Agentic Task as shown.
+   ![Add agentic task](images/add-agentic-task.png)
 
-  20.2 Add *HTTP Task* for Compliance check. Configure the Task as shown.
-  ![Add http check task](images/add-loan-check-task.png)
+   17.2 Add *HTTP Task* for Compliance check. Configure the Task as shown.
+   ![Add http check task](images/add-loan-check-task.png)
 
-  20.3 Add *Simple Task* for Loan processing agent task. Configure the Task as shown.
-  ![Add loan processing agent task](images/add-loan-simple-task.png)
+   17.3 Add *Simple Task* for Loan processing agent task. Configure the Task as shown.
+   ![Add loan processing agent task](images/add-loan-simple-task.png)
 
-  20.4 Add *HTTP Task* to notify AML verification failure. Configure the Task as shown.
-  ![Add AML check notification task](images/add-aml-check-notify-task.png)
+   17.4 Add *HTTP Task* to notify AML verification failure. Configure the Task as shown.
+   ![Add AML check notification task](images/add-aml-check-notify-task.png)
 
-   20.5 Add *Human Task* for manual verification. Configure the Task as shown.
-  ![Add AML check human task](images/add-aml-check-human-task.png)
+   17.5 Add *Human Task* for manual verification. Configure the Task as shown.
+   ![Add AML check human task](images/add-aml-check-human-task.png)
 
 The complete JSON representation for the Planner task along with it's nested tasks are given below for reference. You can use this to copy text and values to configure the above tasks. 
 
@@ -567,11 +552,11 @@ Terminate the workflow if the Agentic planner fails the multi-agent orchestratio
 2. Identify the workflow that you want to view, such as **"acme\_bank\_loan\_processing\_workflow"**, and then click ![Edit Workflow](images/edit.png) (**Edit Workflow**) under **Actions**.
 
 3. Scroll up in the left pane to view the **Check planner execution status** task, and then click the task to view the details of the task in the **Task** tab.
-   ![View task details](images/view-planner-task-wb.png)
+    ![View task details](images/view-planner-task-wb.png)
 
 4. Click the **JSON** tab to view the JSON code for the **Check planner execution status** and **Terminate** task or add a new *Switch* task along with a *HTTP Task* and a *Terminate Task* if you are creating a new workflow. Configure the task details as shown in Task 4 above. The complete JSON representation for the Switch task is given below for reference. You can use this to copy text and values to configure the tasks.
 
-   ```
+    ```
     <copy>
     {
       "name": "Check planner execution status",
@@ -663,7 +648,7 @@ Before sharing the final decision with the user, a human operator conducts a fin
 2. Identify the workflow that you want to view, such as **"acme\_bank\_loan\_processing\_workflow"**, and then click ![Edit Workflow](images/edit.png) (**Edit Workflow**) under **Actions**.
 
 3. Scroll down in the left pane to view the **Send Email notification** task, and then click the task to view the details of the task in the **Task** tab.
-   ![View task details](images/view-email-notification-task-wb.png)
+    ![View task details](images/view-email-notification-task-wb.png)
 
 4. Click the **JSON** tab to view the JSON code for the **Send Email notification** and **human\_approval\_task** tasks or Add a new *Http Task* for email notification and *Human Task* for final verification and sign off. 
 ![Send email notification](images/send-email-notification-task.png)
@@ -737,7 +722,7 @@ Update the final status of the loan application using a SQL Task depending on wh
 2. Identify the workflow that you want to view, such as **"acme\_bank\_loan\_processing\_workflow"**, and then click ![Edit Workflow](images/edit.png) (**Edit Workflow**) under **Actions**.
 
 3. Scroll up in the left pane to view the **check\_loan_approval\_from\_admin** task, and then click the task to view the details of the task in the **Task** tab.
-   ![View task details](images/view-final-task-wb.png)
+    ![View task details](images/view-final-task-wb.png)
 
 4. Click the **JSON** tab to view the JSON code for the **check\_loan_approval\_from\_admin** task or Add a new *Switch* Task along with the two *SQL Task* - one for each decision case in the switch task. Save your changes.
 
